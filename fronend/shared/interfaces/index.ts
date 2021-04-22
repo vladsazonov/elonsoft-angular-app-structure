@@ -1,0 +1,15 @@
+export { ITableData } from './table-data.interface';
+export * from './listing.interface';
+export * from './furnish-variant.interface';
+export { IEntity } from './entity.interface';
+export { ISpecialOffer } from './special-offer.interface';
+export * from './flat.interface';
+export { IImage } from './image.interface';
+export { ISeller } from './seller.interface';
+export * from './developer.interface';
+export { ITableResidentialComplex } from './table-complex.interface';
+export { ITableCity } from './table-city.interface';
+export { IPagination } from './pagination.interface';
+export { IError } from './error.interface';
+export { IAttachment } from './attachment.interface';
+export { IVideo } from './video.interface';

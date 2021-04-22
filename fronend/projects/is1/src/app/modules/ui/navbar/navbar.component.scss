@@ -1,0 +1,17 @@
+.navbar {
+  height: 56px;
+  padding: 0 8px;
+  position: fixed;
+  z-index: 10;
+
+  &__logo {
+    background-image: url('/assets/images/public-logo.svg');
+    height: 40px;
+    margin: 0 16px;
+    width: 131px;
+  }
+
+  &__spacer {
+    flex: 1;
+  }
+}

@@ -1,0 +1,72 @@
+.g-loader {
+  height: 3px !important;
+
+  &_top {
+    position: absolute !important;
+    top: 55px;
+  }
+
+  &-container {
+    position: relative;
+  }
+
+  &_absolute {
+    left: 0;
+    position: absolute !important;
+    top: 0;
+    z-index: 1000;
+  }
+
+  &_bottom-absolute {
+    left: 0;
+    position: absolute !important;
+    z-index: 1000;
+  }
+}
+
+.g-app-loader > div {
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  background-color: #dadcdd;
+
+  border-radius: 100%;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+}
+
+.app-loader .bounce1 {
+  animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.app-loader .bounce2 {
+  animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(1);
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "SPECIAL_OFFERS": {
+    "OFFER_TYPES": {
+      "FROM_SQUARE_METER": "В рублях с квадратного метра",
+      "FROM_APARTMENT_PRICE": "В рублях от стоимости квартиры",
+      "PERCENT_FROM_PRICE": "Процент от стоимости",
+      "PRICE_OF_SQUARE_METER": "Стоимость кв. метра с учетом скидки",
+      "NEW_APARTMENT_PRICE": "Новая стоимость квартиры",
+      "GIFT": "Подарок"
+    }
+  },
+
+  "COMPLEXES": {
+    "COMPLEX_TYPES": {
+      "RESIDENTIAL_COMPLEX": "Жилой комплекс",
+      "RESIDENTIAL_QUARTER": "Жилой квартал",
+      "APARTMENT_COMPLEX": "Апартаментный комплекс",
+      "MICRODISTRICT": "Микрорайон"
+    },
+    "CERTIFICATES": {
+      "MOTHERLY_CAPITAL": "Материнский капитал",
+      "MILITARY_HYPHOTEC": "Военная ипотека",
+      "CERTIFICATE": "Сертификаты АИЖП"
+    },
+    "SITE_STATUS": {
+      "TRUE": "Включен",
+      "FALSE": "Выключен"
+    },
+    "FLAT_FILTERS": {
+      "INVESTOR": "Физическое лицо",
+      "OFFER": "Акции",
+      "FURNISH": "С отделкой",
+      "CONTRACTOR": "Юридическое лицо"
+    },
+    "FLAT_STATUSES": {
+      "FREE": "Свободна",
+      "SOLD": "Продана",
+      "HIDDEN": "Недоступна",
+      "BOOKED": "Бронь",
+      "UNAVAILABLE": "Недоступна"
+    }
+  },
+
+  "HOUSES": {
+    "CLASSES": {
+      "ECONOMY": "Эконом",
+      "COMFORT": "Комфорт",
+      "BUSINESS": "Бизнес",
+      "ELITE": "Элитный"
+    },
+    "TYPES": {
+      "PANEL": "Панельный",
+      "BRICK": "Кирпичный",
+      "FRAME": "Каркасно-монолитный",
+      "BLOCK": "Блочный"
+    }
+  },
+
+  "ENUMS": {
+    "QUARTERS": {
+      "0": "I квартал",
+      "1": "II квартал",
+      "2": "III квартал",
+      "3": "IV квартал"
+    },
+    "SHORT_QUARTERS": {
+      "0": "I кв.",
+      "1": "II кв.",
+      "2": "III кв.",
+      "3": "IV кв."
+    }
+  }
+}

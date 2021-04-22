@@ -1,0 +1,23 @@
+html {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  background-color: mat-color($other, background);
+  color: mat-color($mono-a, A900);
+  height: 100%;
+  margin: 0;
+  touch-action: manipulation;
+}
+
+.g-will-change {
+  will-change: transform;
+}
+
+.g-centered {
+  left: 50%;
+  position: absolute !important;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

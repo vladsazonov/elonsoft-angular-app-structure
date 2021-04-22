@@ -1,0 +1,117 @@
+.g-dialog {
+  &__wrapper {
+    max-height: calc(100vh - 56px - 100px);
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    width: 100%;
+
+    @media #{$mobile-screen-lg-max} {
+      max-height: calc(calc(var(--vh, 1vh) * 100) - 240px);
+    }
+  }
+
+  &_small {
+    @media #{$tablet-screen-md-min} {
+      min-width: 400px;
+    }
+
+    @media #{$tablet-screen-sm-min} {
+      min-width: 490px;
+    }
+  }
+
+  &_medium {
+    max-width: 600px;
+  }
+
+  &_large {
+    max-width: 730px;
+  }
+
+  &__title.mat-dialog-title {
+    @media #{$mobile-screen-sm-min} {
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__subtitle {
+    color: mat-color($mono-a, A700);
+    margin: 0 0 24px !important;
+
+    @media #{$mobile-screen-sm-min} {
+      line-height: 24px;
+      margin-bottom: 40px;
+    }
+
+    &_dark {
+      color: mat-color($mono-a, A900);
+    }
+  }
+
+  &__field {
+    font-size: 16px !important;
+    letter-spacing: 0.15px !important;
+    line-height: 20px !important;
+    margin-bottom: 16px;
+    width: 100%;
+
+    .mat-form-field-label {
+      font-size: 16px !important;
+    }
+  }
+
+  &__actions {
+    align-items: center;
+    display: flex;
+
+    &_margin {
+      margin-top: 24px;
+    }
+  }
+
+  &__action {
+    height: 48px;
+    margin-right: 16px !important;
+    text-transform: uppercase;
+
+    &:last-child {
+      color: mat-color($mono-a, A700) !important;
+      margin-right: 0 !important;
+    }
+  }
+
+  &__action-warn {
+    height: 48px;
+    text-transform: uppercase;
+  }
+
+  &__action-cancel {
+    color: mat-color($mono-a, A700) !important;
+    height: 48px;
+    margin-left: auto !important;
+    text-transform: uppercase;
+  }
+
+  &__close.mat-icon-button {
+    background-color: mat-color($mono-b, A200) !important;
+    border-radius: 6px;
+    color: mat-color($mono-b, 500) !important;
+    position: absolute !important;
+    right: -56px;
+    top: 0;
+    z-index: 1;
+
+    @media #{$mobile-screen-lg-max} {
+      right: 0;
+      top: -50px;
+    }
+
+    &:hover {
+      background-color: mat-color($mono-a, A600) !important;
+      transition: 0.3s ease;
+    }
+  }
+}

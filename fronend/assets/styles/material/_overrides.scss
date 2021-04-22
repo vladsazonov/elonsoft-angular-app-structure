@@ -1,0 +1,18 @@
+@import '~assets/styles/core/media.variables';
+
+.dark-mat-dialog {
+  .mat-dialog-container {
+    background: mat-color($mono-a, A900);
+    border-radius: 0;
+    padding: 16px;
+  }
+}
+
+.dialog.cdk-overlay-pane:not(.dark-mat-dialog) {
+  position: absolute !important;
+  width: calc(100% - 150px);
+
+  @media #{$mobile-screen-lg-max} {
+    width: 90%;
+  }
+}

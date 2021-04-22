@@ -1,0 +1,29 @@
+.g-mobile-screen {
+  @media (min-width: 651px) {
+    display: none !important;
+  }
+}
+
+.g-tablet-screen {
+  @media (max-width: 651px) and (min-width: 901px) {
+    display: none !important;
+  }
+}
+
+.g-mobile-and-tablet-screen {
+  @media (min-width: 901px) {
+    display: none !important;
+  }
+}
+
+.g-tablet-and-desktop-screen {
+  @media (max-width: 650px) {
+    display: none !important;
+  }
+}
+
+.g-desktop-screen {
+  @media (max-width: 900px) {
+    display: none !important;
+  }
+}
